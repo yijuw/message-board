@@ -1,0 +1,12 @@
+.edit {
+    color: rgb(161, 161, 141)
+}
+.delete {
+    color: rgb(161, 161, 141)
+}
+.hide {
+    display: none
+}
+.show {
+    display: block;
+}
