@@ -2,14 +2,12 @@
   "name": "posting",
   "version": "1.0.0",
   "description": "",
-  "main": "public/server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "build:dev": "webpack-dev-server --output-public-path=/build/",
-    "json:server": "json-server --watch api/db.json",
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "webpack-dev-server --output-public-path=/build/",
+    "json:server": "json-server --watch api/db.json"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
