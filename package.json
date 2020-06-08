@@ -1,5 +1,5 @@
 {
-  "name": "posting",
+  "name": "message-board",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "json:server": "json-server --watch api/db.json"
   },
   "keywords": [
-    "json-server,heroku, node, REST API"
+    "json-server, node, REST API"
   ],
   "author": "",
   "license": "ISC",
